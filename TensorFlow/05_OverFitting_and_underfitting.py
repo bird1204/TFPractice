@@ -154,3 +154,4 @@ dpt_model_history = dpt_model.fit(train_data, train_labels,
 # 畫圖跟原本的比較，會發現效果很好
 plot_history([('baseline', baseline_history),
               ('dropout', dpt_model_history)])
+plt.show()
